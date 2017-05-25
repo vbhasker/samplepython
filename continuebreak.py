@@ -18,3 +18,13 @@ while chosen_exit not in available_exits:
 # doesn't get executed when break.
 else:
     print("successfully exited!")
+
+
+even = [2, 4, 6, 8]
+odd = [1, 3, 5, 7, 9]
+
+numbers = even + odd
+ordered_numbers = sorted(numbers)
+
+if sorted(numbers) == ordered_numbers:
+    print('They are the same list contents')
