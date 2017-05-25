@@ -30,3 +30,12 @@ print(fruit_keys)
 fruits['peach'] = 'another fruit'
 # even though the keys are not extracted after appending another value to dictionary, new values are printed
 print(fruit_keys)
+
+print(fruits.values())
+
+# items give the items in a tuple format
+
+# view object, array of tuples
+print(fruits.items())
+
+print(tuple(fruits.items()))
